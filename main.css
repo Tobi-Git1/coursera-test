@@ -1,0 +1,72 @@
+nav{
+  float: right;
+  padding-right: 20px;
+}
+
+body{
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+font-family: arial;
+background-color: #2e0405;
+}
+
+nav ul li{
+  list-style-type: none;
+margin-left: 20px;
+text-align: right;
+display: inline-block;
+}
+
+nav ul li a{
+  text-decoration: none;
+color: #2ba273;
+}
+
+.box{
+height: 338px;
+background-color: #ff00d7;
+background-image: url(Work/img/hitt.jpg);
+background-size: cover;
+margin:1%;
+}
+
+h1{
+  color: white;
+  font-size: 55px;
+  padding-top: 120px;
+  padding-left: 60px;
+}
+
+.row img {
+  width: 100%;
+height: auto;
+display: block;
+}
+
+
+.row {
+  width: 31.3%;
+float: left;
+margin: 1%;
+}
+
+@media (max-width: 768px) {
+h1 {
+  font-size: 40px;
+  text-align: center;
+  padding-left: 0px;
+ }
+.row{
+  width: 48%;
+}
+nav ul li {
+  display: block;
+}
+}
+@media (max-width: 400px) {
+  h1{
+    font-size: 28px;
+
+  }
+}
